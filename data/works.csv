@@ -1,0 +1,8 @@
+work,segment,district,possible_rain,invoice,kind,amount,previous
+W1,B1,D1,R1,I1,clean,16,
+W2,B2,D1,R1|R2,I2,repair,31,
+W3,B2,D2,R1|R2,I2,repair,31,W2
+W4,B2,D2,R2,I3,repair,24,W3
+W5,B2,D2,R1,I4,improve,15,
+W6,B3,D3,R3|R4,I5,clean,19,
+W7,B3,D2,R4,I6,repair,11,W6

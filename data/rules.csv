@@ -1,0 +1,3 @@
+group,covered,deductible,event_cap,pool_limit,reserved
+A,clean|repair,10,32,50,13
+B,clean|repair,8,25,38,7

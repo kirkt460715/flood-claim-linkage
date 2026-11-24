@@ -1,0 +1,5 @@
+voucher,invoice,group,district,amount,state,day,source_scope
+P1,I1,A,D1,5,paid,9,R1@W1
+P2,I2,A,D2,14,accepted,10,R1@W3
+P3,I3,A,D2,12,submitted,11,R2@W4
+P4,I5,B,D3,8,submitted,17,R3@W6

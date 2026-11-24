@@ -1,0 +1,70 @@
+{
+  "tables": {
+    "rain": [
+      "group",
+      "event",
+      "from_day",
+      "to_day",
+      "segments",
+      "known_day"
+    ],
+    "works": [
+      "work",
+      "segment",
+      "district",
+      "possible_rain",
+      "invoice",
+      "kind",
+      "amount",
+      "previous"
+    ],
+    "inspections": [
+      "check",
+      "work",
+      "day",
+      "ends",
+      "low",
+      "high",
+      "event_candidates",
+      "source"
+    ],
+    "rules": [
+      "group",
+      "covered",
+      "deductible",
+      "event_cap",
+      "pool_limit",
+      "reserved"
+    ],
+    "vouchers": [
+      "voucher",
+      "invoice",
+      "group",
+      "district",
+      "amount",
+      "state",
+      "day",
+      "source_scope"
+    ]
+  },
+  "references": [
+    [
+      "inspections",
+      "work",
+      "works",
+      "work"
+    ],
+    [
+      "vouchers",
+      "invoice",
+      "works",
+      "invoice"
+    ],
+    [
+      "vouchers",
+      "group",
+      "rules",
+      "group"
+    ]
+  ]
+}
